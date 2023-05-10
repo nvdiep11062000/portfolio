@@ -26,11 +26,11 @@ const Header = () => {
                     {/* //------LOGO-------- */}
                     <div className="flex items-center gap-[10px]">
                         <span className="w-[35px] h-[35px] bg-black text-white text-[15px] font-[500] rounded-full flex items-center justify-center">
-                            JK
+                            DN
                         </span>
 
                         <div className="leading-[20px]">
-                            <h2 className="text-xl text-black font-[700]">Jennie Kim</h2>
+                            <h2 className="text-xl text-black font-[700]">Diep Nguyen</h2>
                             <p className="text-gray-400 text-[14px] font-[500]">Intern</p>
                         </div>
                     </div>

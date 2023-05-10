@@ -1,5 +1,6 @@
 import React from 'react';
-import avataImg from '../../assets/j-7_20220610154506.jpg';
+import { Link } from 'react';
+import avataImg from '../../assets/images/avt.jpg';
 const Hero = () => {
     return (
         <>
@@ -20,7 +21,7 @@ const Hero = () => {
                                 data-aos-duration="1500"
                                 className="text-black font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
                             >
-                                I'm Jennie
+                                I'm Nguyen Viet Diep
                                 <br />
                                 Frontend Developer
                             </h1>
@@ -48,9 +49,18 @@ const Hero = () => {
                                 className="font-[600] pt-7 flex gap-6 items-center"
                             >
                                 Follow me :<i class="ri-youtube-line cursor-pointer text-[20px]"></i>
-                                <i class="ri-github-fill  cursor-pointer text-[20px]"></i>
-                                <i class="ri-facebook-fill  cursor-pointer text-[20px]"></i>
-                                <i class="ri-instagram-line  cursor-pointer text-[20px]"></i>
+                                <a
+                                    class="ri-github-fill  cursor-pointer text-[20px]"
+                                    href="https://github.com/nvdiep11062000"
+                                ></a>
+                                <a
+                                    class="ri-facebook-fill  cursor-pointer text-[20px]"
+                                    href="https://www.facebook.com/diepnvdiep/"
+                                ></a>
+                                <a
+                                    class="ri-instagram-line  cursor-pointer text-[20px]"
+                                    href="https://www.instagram.com/_nvdiep1106/"
+                                ></a>
                             </div>
                         </div>
                         {/* ------HERO LEFT------ */}
